@@ -1,3 +1,6 @@
+run-docker:
+	docker compose up
+
 connect-docker : 
 	docker compose exec back /bin/bash 
 
